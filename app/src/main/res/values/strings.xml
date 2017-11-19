@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hari Pertama IAK</string>
+    <string name="hint_confirm_pass">Confirm password</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="fullname">Fullname</string>
+    <string name="setuju_dengan_persyaratan">Setuju dengan Persyaratan</string>
+    <string name="register">Register</string>
+</resources>

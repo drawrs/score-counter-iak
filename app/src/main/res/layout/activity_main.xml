@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.khilman.www.haripertamaiak.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etEmail"
+        android:hint="Email address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Remember Me"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnLogin"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have an acoount ?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSignUp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text=" Sign up"/>
+    </LinearLayout>
+</LinearLayout>
