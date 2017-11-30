@@ -32,6 +32,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.khilman.www.haripertamaiak.CounterActivity" />
+        <activity
+            android:name="com.khilman.www.haripertamaiak.ResultActivity"
+            android:parentActivityName="com.khilman.www.haripertamaiak.CounterActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
